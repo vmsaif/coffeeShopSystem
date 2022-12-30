@@ -6,7 +6,7 @@ This project is a Java program that simulates a coffee shop system, including cu
 2. Navigate to the `src/` directory of the project in your terminal.
 3. Run the command `javac *.java` to compile the Java files in the src directory to bin directory.
 4. Run the command `java SIMULATE.java` to run the main program.
-5. 
+
 ## What I Have Learned
 
 1. Using inheritance and polymorphism in object-oriented programming
