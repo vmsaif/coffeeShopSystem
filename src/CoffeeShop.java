@@ -1,8 +1,6 @@
 
-/*Course: COMP 1020(A03)
+/*
  * Name: Saif Mahmud
- * ID: 7808507
- * Assignment 1
  */
 public class CoffeeShop {
 	private String myShopName ;
