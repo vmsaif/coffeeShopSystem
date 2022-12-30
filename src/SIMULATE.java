@@ -1,10 +1,9 @@
 
-public class TestPhase3 {
- 
- 
+public class SIMULATE {
+  
   public static void main(String[] args) {
     
-    //set up some customers
+     //set up some customers
     Customer bruno = new Customer("Bruno", "Mars");
     Customer taylor = new Customer("Taylor", "Swift");
     Customer ada = new Customer("Lovelace", "Ada");
@@ -17,7 +16,7 @@ public class TestPhase3 {
  
 
     //set up some drinks
-     Drink latte = new Drink("Latte");
+    Drink latte = new Drink("Latte");
     latte.addIngredient(milk);
     latte.addIngredient(espresso);
     
@@ -34,7 +33,7 @@ public class TestPhase3 {
     //Set up some stores
     CoffeeShop starbucks = new CoffeeShop("Starbucks", 3.5);
     CoffeeShop secondCup = new CoffeeShop("Second Cup", 2.1);
-	CoffeeShop goodEarth = new CoffeeShop("Good Earth Coffee", 2.5);
+    CoffeeShop goodEarth = new CoffeeShop("Good Earth Coffee", 2.5);
     
     starbucks.newOrder(bruno, latte);
     starbucks.displayOrdersPending();
@@ -69,7 +68,28 @@ public class TestPhase3 {
     starbucks.orderFilled(bruno);
     starbucks.displayOrdersPending();
     
+    starbucks.newOrder(taylor, hazeLatte);
+    starbucks.displayOrdersPending();
+    System.out.println(starbucks.getName() + " profit: " + starbucks.getProfit());
     System.out.println();
+
+    
     System.out.println("Total coffee orders: " + CoffeeShop.getTotalOrders());
-    }
+    System.out.println();
+
+    System.out.println(taylor + " has visited: ");
+    taylor.displayStoresVisited();
+    System.out.println();
+    
+    System.out.println(bruno + " has visited: ");
+    bruno.displayStoresVisited();
+    System.out.println();
+    
+    System.out.println(ada + " has visited: ");
+    ada.displayStoresVisited();
+    System.out.println();
+      
+    System.out.println("shortest wait for: " + taylor + " is: " + taylor.getShortestWait().getName());
+    System.out.println("shortest wait for: " + ada + " is: " + ada.getShortestWait().getName());
+  }
 }
