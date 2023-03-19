@@ -1,4 +1,7 @@
 # Coffee Shop System
+
+[![Hits](https://hits.sh/github.com/vmsaif/coffeeShopSystem.svg?label=Visits&color=100b75)](https://hits.sh/github.com/vmsaif/coffeeShopSystem/)
+
 This project is a Java program that simulates a coffee shop system, including customer and ingredient classes, drink and drink order classes, and a coffee shop class.
 
 ## Running
