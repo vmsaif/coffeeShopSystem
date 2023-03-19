@@ -7,7 +7,7 @@ This project is a Java program that simulates a coffee shop system, including cu
 ## Running
 1. Ensure that you have the latest version of Java installed on your computer.
 2. Navigate to the root directory of the project in your terminal. Root directory the main folder, namely `coffeeShopSystem`
-3. Run the command `javac -d bin src\*.java` to compile the Java files in the src directory to bin directory.
+3. Run the command `javac -d bin src/*.java` to compile the Java files in the src directory to `bin/` directory.
 4. Run the command `java -cp bin/ SIMULATE` to run the main program.
 
 ## What I Have Learned
