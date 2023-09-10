@@ -12,7 +12,7 @@ This project is a Java program that simulates a coffee shop system, including cu
 
 ## What I Have Learned
 
-1. Using inheritance and polymorphism in object-oriented programming
+1. Creating and using object in Java
 2. Creating and manipulating arrays and ArrayLists
 3. Working with file input and output in Java
 4. Using exception handling in Java
